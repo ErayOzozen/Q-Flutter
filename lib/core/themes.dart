@@ -1,0 +1,1 @@
+// burada temalandirma renk etc yazilacakmis
