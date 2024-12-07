@@ -1,48 +1,109 @@
-# flutter Projesi
 
-Proje Hakkında
-[Vakitten ve nakitten tasarruf ettiren kolay ve anlaşılabilir bir sigorta uygulaması]
+# Flutter Projesi
 
-Ekibimiz
-Danışman:
+  
+
+![İstinye Üniversitesi](https://www.unitededucation.com/linklogoch/istinye-university-logo.png)
+
+  
+
+## Proje Hakkında
+
+[SigorTAM uygulaması sigorta şirketlerinin kullanıcıların bilgilerini uygulama üzerinden görerek kişiye özel en iyi sigorta teklifini yapmasını sağlar. Bu şekilde hem insanlar kendilerine ve bütçelerine en uygun sigortayı bulurlar hem de boşa vakit kaybetmekten kurtulurlar.]
+
+  
+
+## Ekibimiz
+
+-  **Danışman:**  
 [https://github.com/keyvanarasteh](Keyvan Arasteh)
 
-Takım Üyeleri: Eray Özözen
 
-X [https://github.com/ErayOzozen](ErayOzozen)
+-  **Takım Üyeleri:**
 
-Özellikler
-[Kolay ve anlaşılabilir]
+-  [ErayOzozen](https://github.com/ErayOzozen)
 
-[Zamandan kazandırır]
+  
 
-[Paradan tasarruf ettirir]
+## Özellikler
 
-Kullanılan Teknolojiler
-Flutter
+- [Kolay ve anlaşılabilir arayüz]
 
-Dart
+- [Vakitten tasarruf]
 
-[Diğer teknolojiler]
+- [Bilgi kirliliğini önleme ve Bilinçli para yönetimi]
 
-Başlangıç
-Gereksinimler
-Flutter SDK (sürüm X.X.X)
+  
 
-Dart SDK (sürüm X.X.X)
+## Kullanılan Teknolojiler
 
-[Diğer gerekli yazılımlar]
+- Flutter
 
-Kurulum Adımları
-Projeyi bilgisayarınıza indirin:
+- Dart
+
+- [Diğer teknolojiler]
+
+  
+
+## Başlangıç
+
+  
+
+### Gereksinimler
+
+- Flutter SDK (sürüm X.X.X)
+
+- Dart SDK (sürüm X.X.X)
+
+- [Diğer gerekli yazılımlar]
+
+  
+
+### Kurulum Adımları
+
+1. Projeyi bilgisayarınıza indirin:
+
+```bash
+
 git  clone [proje-adresi]
-Proje klasörüne gidin:
+
+```
+
+  
+
+2. Proje klasörüne gidin:
+
+```bash
+
 cd [proje-adı]
-Gerekli paketleri yükleyin:
+
+```
+
+  
+
+3. Gerekli paketleri yükleyin:
+
+```bash
+
 flutter  pub  get
-Uygulamayı başlatın:
+
+```
+
+  
+
+4. Uygulamayı başlatın:
+
+```bash
+
 flutter  run
-Proje Yapısı
+
+```
+
+  
+
+## Proje Yapısı
+
+```
 
 lib/
 
@@ -56,27 +117,47 @@ lib/
 
 └── yardımcılar/ # Yardımcı fonksiyonlar
 
-Ekran Görüntüleri
+```
+
+  
+
+## Ekran Görüntüleri
+
 [Uygulama ekran görüntüleri buraya eklenecek]
 
-Projeye Katkı Sağlama
-Projeyi forklayın
+  
 
-Yeni bir dal oluşturun (git checkout -b ozellik/YeniOzellik)
+## Projeye Katkı Sağlama
 
-Değişikliklerinizi kaydedin (git commit -m 'Yeni özellik eklendi')
+1. Projeyi forklayın
 
-Dalınıza gönderin (git push origin ozellik/YeniOzellik)
+2. Yeni bir dal oluşturun (`git checkout -b ozellik/YeniOzellik`)
 
-Pull Request oluşturun
+3. Değişikliklerinizi kaydedin (`git commit -m 'Yeni özellik eklendi'`)
 
-Lisans
-[Lisans türü] kapsamında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyebilirsiniz.
+4. Dalınıza gönderin (`git push origin ozellik/YeniOzellik`)
 
-İletişim
-Proje Bağlantısı: [[GitHub repository linki](https://github.com/ErayOzozen/Q-Flutter)]
+5. Pull Request oluşturun
 
-İstinye Üniversitesi: https://www.istinye.edu.tr/
+  
 
-Teşekkürler
-Keyvan Hocama destekleri için teşekkür ederim.
+## Lisans
+
+[Lisans türü] kapsamında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+
+  
+
+## İletişim
+
+- Proje Bağlantısı: [[GitHub repository linki](https://github.com/ErayOzozen/Q-Flutter)]
+
+- İstinye Üniversitesi: [https://www.istinye.edu.tr/](https://www.istinye.edu.tr/)
+
+  
+
+## Teşekkürler
+
+- İstinye Üniversitesi'ne destekleri için teşekkür ederiz
+
+- [Diğer teşekkürler]
+
