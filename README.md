@@ -122,8 +122,10 @@ lib/
 
 ## Ekran Görüntüleri
 
-[Uygulama ekran görüntüleri buraya eklenecek]
-
+[![alt text](homescreenim.png)]
+![alt text](homescreenim2.png)
+![alt text](arama.png)
+![alt text](kişiseltab.png)
   
 
 ## Projeye Katkı Sağlama
