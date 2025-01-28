@@ -7,8 +7,40 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Map<String, Color> colors = {
+      "surface": Colors.white,
+      "primary": Colors.blue,
+    };
+
+    var icon = Icon(
+      CupertinoIcons.person_circle,
+      size: 80,
+      color: colors["primary"],
+    );
+
+    var container2 = Container(
+      height: 200,
+      color: colors["surface"],
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          icon,
+          const SizedBox(height: 10),
+          Text(
+            'Kullanıcı Adı',
+            style: const TextStyle(
+              fontSize: 18,
+              color: Colors.black,
+            ),
+          ),
+        ],
+      ),
+    );
+
+    var container = container2;
+
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: colors["surface"],
       appBar: AppBar(
         title: const Text('Ana Sayfa'),
         actions: [
@@ -18,32 +50,10 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-
       drawer: Drawer(
         child: Column(
           children: [
-            Container(
-              height: 200,
-              color: Colors.blue,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(
-                    CupertinoIcons.person_circle,
-                    size: 80,
-                    color: Colors.white,
-                  ),
-                  const SizedBox(height: 10),
-                  const Text(
-                    'Kullanıcı Adı',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            container,
             ListTile(
               leading: const Icon(CupertinoIcons.home),
               title: const Text('Ana Sayfa'),
@@ -75,7 +85,6 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
@@ -98,7 +107,7 @@ class HomeScreen extends StatelessWidget {
                   'Sağlık Sigortası',
                 ];
 
-                List<Color> colors = [
+                List<Color> gridColors = [
                   Colors.blue.shade600,
                   Colors.blue.shade600,
                   Colors.blue.shade600,
@@ -108,7 +117,7 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: colors[index],
+                    color: gridColors[index],
                     border: Border.all(color: Colors.blue),
                   ),
                   child: Center(
@@ -129,11 +138,10 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: const Color.fromARGB(255, 18, 137, 153),
         selectedItemColor: const Color.fromARGB(255, 18, 137, 153),
-        unselectedItemColor: const Color.fromARGB(255, 18, 137, 153),
+        unselectedItemColor: Colors.white70,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.home),
@@ -154,6 +162,7 @@ class HomeScreen extends StatelessWidget {
         ],
         onTap: (index) {
           if (index == 0) {
+            context.go('/');
           } else if (index == 1) {
             context.go('/explore');
           } else if (index == 2) {
@@ -163,6 +172,14 @@ class HomeScreen extends StatelessWidget {
           }
         },
       ),
+    );
+  }
+
+  TextStyle newMethod(Map<String, Color> colors) {
+    return TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      backgroundColor: colors["surface"],
     );
   }
 }

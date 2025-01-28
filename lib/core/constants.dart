@@ -10,7 +10,7 @@ const colors = {
  "onsurface":Color.fromARGB(255, 18, 137, 153),
 };
 
-const dartColors = {
+const darkColors = {
  "primary": Color.fromARGB(255, 18, 137, 153),
  "secondary": Color.fromARGB(255, 255, 255, 255),
  "onprimary": Color.fromARGB(255, 18, 137, 153),

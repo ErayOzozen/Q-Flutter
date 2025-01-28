@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/core/constants.dart';
 import 'package:go_router/go_router.dart'; // GoRouter import edilmiştir
 
 class LoadingScreen extends StatelessWidget {
@@ -7,7 +8,6 @@ class LoadingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 18, 137, 153),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

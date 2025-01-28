@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/core/constants.dart';
 
 class ExploreScreen extends StatelessWidget {
   const ExploreScreen({super.key});
