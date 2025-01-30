@@ -62,13 +62,6 @@ class HomeScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(CupertinoIcons.settings),
-              title: const Text('Ayarlar'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
               leading: const Icon(CupertinoIcons.pencil),
               title: const Text('Özelleştirme'),
               onTap: () {
@@ -82,6 +75,22 @@ class HomeScreen extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
+   ListTile(
+  leading: const Icon(CupertinoIcons.settings),
+  title: const Text('Ayarlar'),
+  onTap: () {
+    Navigator.pop(context);
+    context.go('/settings');
+  },
+   ),
+
+
+
+
+
+
+
+
           ],
         ),
       ),
