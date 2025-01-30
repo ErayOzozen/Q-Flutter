@@ -39,6 +39,19 @@ final GoRouter router = GoRouter(
         return const HistoryScreen();
       },
     ),
+GoRoute(
+      path: '/login',
+      builder: (BuildContext context, GoRouterState state) {
+        return const HistoryScreen();
+      },
+    ),
+
+
+
+
+
+
+
   ],
 );
 
