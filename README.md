@@ -3,7 +3,7 @@
 
   
 
-![İstinye Üniversitesi](https://www.unitededucation.com/linklogoch/istinye-university-logo.png)
+![İstinye Üniversitesi](c:\Users\eryoz\Desktop\sigortalogo.png)
 
   
 
