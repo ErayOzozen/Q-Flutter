@@ -130,7 +130,7 @@ lib/
 ![alt text](profilekranıdarkmode.png)
 ![alt text](ayarlardarkmode.png)
 ![alt text](historyscreendarkmode.png)
-  
+![alt text](historyscreenlightmode.png)
 
 ## Projeye Katkı Sağlama
 

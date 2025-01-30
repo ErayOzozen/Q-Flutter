@@ -22,7 +22,7 @@ class ExploreScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
-                color: Color.fromARGB(221, 0, 0, 0),
+                color: Color.fromARGB(221, 255, 255, 255),
               ),
             ),
             const SizedBox(height: 20),
@@ -63,7 +63,7 @@ class ExploreScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
-                color: Color.fromARGB(221, 0, 0, 0),
+                color: Color.fromARGB(221, 255, 255, 255),
               ),
             ),
             const SizedBox(height: 10),

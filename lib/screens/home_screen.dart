@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
           icon,
           const SizedBox(height: 10),
           Text(
-            'Kullanıcı Adı',
+            'Eray Özözen',
             style: const TextStyle(
               fontSize: 18,
               color: Colors.black,
