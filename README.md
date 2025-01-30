@@ -123,9 +123,13 @@ lib/
 ## Ekran Görüntüleri
 
 [![alt text](homescreenim.png)]
-![alt text](homescreenim2.png)
-![alt text](arama.png)
-![alt text](kişiseltab.png)
+![alt text](homescreengecemodu.png)
+![alt text](searchscreenlightmode.png)
+![alt text](searchscreendarkmod.png)
+![alt text](profilekranılightmode.png)
+![alt text](profilekranıdarkmode.png)
+![alt text](ayarlardarkmode.png)
+
   
 
 ## Projeye Katkı Sağlama
