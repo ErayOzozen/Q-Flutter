@@ -3,6 +3,24 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/core/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+const colors = {"primary": Color.fromARGB(255, 18, 137, 153),
+ "secondary": Color.fromARGB(255, 255, 255, 255),
+ "onprimary": Color.fromARGB(255, 18, 137, 153),
+ "onSecondary":Color.fromARGB(255, 255, 255, 255),
+ "surface":Color.fromARGB(255, 255, 255, 255),
+ "onsurface":Color.fromARGB(255, 18, 137, 153),   
+
+};
+const darkColors = {"primary": Color.fromARGB(255, 18, 137, 153),
+ "secondary": Color.fromARGB(255, 255, 255, 255),
+ "onprimary": Color.fromARGB(255, 18, 137, 153),
+ "onSecondary":Color.fromARGB(255, 255, 255, 255),
+ "surface":Color.fromARGB(255, 18, 137, 153),
+ "onsurface":Color.fromARGB(255, 255, 255, 255),
+
+};
+
+ 
 final Lighttheme = ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.blue,
