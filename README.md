@@ -132,6 +132,11 @@ lib/
 ![alt text](historyscreendarkmode.png)
 ![alt text](historyscreenlightmode.png)
 
+## DEMO VİDEOSU BAĞLANTI LİNKİ
+
+https://youtube.com/shorts/4aUd0YxGcOI?feature=share
+
+
 ## Projeye Katkı Sağlama
 
 1. Projeyi forklayın
