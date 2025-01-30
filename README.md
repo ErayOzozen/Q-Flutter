@@ -3,7 +3,7 @@
 
   
 
-![İstinye Üniversitesi](c:\Users\eryoz\Desktop\sigortalogo.png)
+![İstinye Üniversitesi](![alt text](image.png))
 
   
 
