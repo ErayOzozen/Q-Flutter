@@ -1,6 +1,6 @@
 // burada temalandirma renk etc yazilacakmis
 import 'package:flutter/material.dart';
-import 'package:flutter_app/core/constants.dart';
+//import 'package:flutter_app/core/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 const colors = {"primary": Color.fromARGB(255, 18, 137, 153),
